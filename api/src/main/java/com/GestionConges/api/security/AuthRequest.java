@@ -1,8 +1,28 @@
 package com.GestionConges.api.security;
 
+
 public class AuthRequest {
     private String email;
     private String password;
 
-    // Getters and Setters
-}
+        // Getter for email
+        public String getEmail() {
+            return email;
+        }
+
+        // Setter for email
+        public void setEmail(String email) {
+            this.email = email;
+        }
+
+        // Getter for password
+        public String getPassword() {
+            return password;
+        }
+
+        // Setter for password
+        public void setPassword(String password) {
+            this.password = password;
+        }
+    }
+
